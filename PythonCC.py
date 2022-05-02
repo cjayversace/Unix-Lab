@@ -22,7 +22,7 @@ for i in sys.stdin:
                 position = position + shift
                 empty_string+= letters[position]
             elif position >= minimum_shift:
-                position = positon + shift - 26
+                position = position + shift - 26
                 empty_string += letters[position]
 length = len(empty_string)
 counter = 0
